@@ -72,16 +72,8 @@ After installation, to run type in any terminal window:
 
 in a terminal where you cloned the repository. 
 When you want to apply the settings given in the GUI click apply, and instructions will be given on how to apply the overclock. This is at your own risk!
-## Contributing & Donations
-Contributions can be made in terms of:
- * Hardware debugging, please let me know if your configuration runs or not (mine is run with 4.19 and an RX480)
- * Feature additions, some TODO's are given in the files
- * Packaging of the software
- * Feedback on the code
- * Donations can be made on http://paypal.me/pools/c/89hdUKrx2Z
- * Other contributions are also possible, please let me know
- ## FAQ
- ### How do I know my card has the overdrive bit enabled
+
+### How do I know my card has the overdrive bit enabled
  Just try to run WattmanGTK. It will tell you if your card does not 
  support overdrive. Even if this is not the case you can set a kernel 
  parameter to force overdrive to be enabled (may not work on all cards).
