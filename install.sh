@@ -1,0 +1,1 @@
+sudo python3 setup.py install && echo "python3 run.py" > WattmanGTK.sh && chmod +x WattmanGTK.sh && mkdir /opt/wattmanGTK && cp * -rf /opt/wattmanGTK && cd /opt/wattmanGTK && echo "exec /opt/wattmanGTK/WattmanGTK.sh" > /bin/wattmangtk;
