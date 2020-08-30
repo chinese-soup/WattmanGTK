@@ -1,14 +1,16 @@
 # WattmanGTK
 This is a Python3 program which uses a simple GTK gui to view, monitor and in the future overclock a Radeon GPU on Linux. 
 ![Main screen](https://i.imgur.com/ahrQrEO.png)
+
+NOTE: This is a branch of the original wattmanGTK by user: BoukeHaarsma23. This branch allows for setting values from the UI (not just looking at them)
 ## What can it do?
  * View memory and GPU P-states including voltages.
  * Ability to monitor signals from GPU sensors by means of plotting
  * Write a bash file with overclock settings
  * Multi GPU support in top dropdown list
-## What can't it do?
- * Directly apply values from GUI (this will be a future addition)
- * Fan control (this will be a future addition)
+ * Directly apply values from GUI (What this branch brings to the table)
+## What can't it do? 
+ * Fan control
  * Monitor multiple GPU's
 
 ## Hardware Requirements
@@ -47,7 +49,7 @@ Clone the repository and open a terminal in this folder and install the required
 Production Installation
 
 ```
-    sudo python3 setup.py install
+    sudo ./install.sh
 ```
 
 Development Installation
@@ -56,12 +58,17 @@ Development Installation
     python -m pip install -e .
 ```
 
-After installation, the ``` wattmanGTK ``` command is available from any terminal.
-Alternatively, the tool can also be launched from the command line by running
+
+After installation, the downloaded files may be deleted.
+
+
+After installation, to run type in any terminal window:
 
 ```
-    python3 run.py
+    sudo wattmanGTK
 ```
+
+
 
 in a terminal where you cloned the repository. 
 When you want to apply the settings given in the GUI click apply, and instructions will be given on how to apply the overclock. This is at your own risk!
