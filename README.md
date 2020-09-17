@@ -23,7 +23,7 @@ NOTE: This is a branch of the original wattmanGTK by user: BoukeHaarsma23. This 
 * The overdrive kernel parameter must be set.
 * Python3 (3.6+)
 
-## Virtual Environment Requirements
+## Requirements
 
 Production Environment
 
