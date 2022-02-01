@@ -69,7 +69,7 @@ def main():
     if python_major < "3":
         print("Please run with python3 (3.6+)")
         exit()
-    elif python_major == "3" and python_minor < "6":
+    elif python_major == "3" and int(python_minor) < 6:
         print("Please use python version 3.6 and up")
         exit()
 
